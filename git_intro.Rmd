@@ -82,7 +82,7 @@ Rad sa granama:
 
 ```bash
 git branch
-git checkout <branch_name>
+git checkout <branch_name> 
 ```
 
 # Nikola: Git & GitHub iz okruženja - R Studio
