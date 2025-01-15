@@ -1,0 +1,94 @@
+---
+title: "Git & GitHub - Datakolektiv"
+author: "Datakolektiv Team - Aleksandr & Nikola"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    theme: cerulean
+---
+
+# Šta je Git?
+
+Git je sistem za verzionisanje koda koji omogućava praćenje promena u projektu i saradnju više programera na istom projektu.
+
+## Čemu služi Git?
+
+- Praćenje istorije verzija koda.
+- Upravljanje izmenama u projektu.
+- Saradnja na projektima sa više članova tima.
+
+# Šta je GitHub?
+
+GitHub je platforma za hostovanje git repozitorijuma koja omogućava deljenje i saradnju na projektima.
+
+## Čemu služi GitHub?
+
+- Hostovanje projekata u oblaku.
+- Deljenje koda sa drugim korisnicima.
+- Praćenje otvorenih zadataka i problema.
+
+# Kako se Git i GitHub koriste zajedno?
+
+Kombinacija Git-a i GitHub-a omogućava:
+
+- Kreiranje i upravljanje verzijama koda (*repository*).
+- Praćenje promena (*code versions*).
+- Upravljanje saradnjom među programerima.
+
+# Pravljenje naloga
+
+> **Napomena**: Pogledajte video za detaljna uputstva o kreiranju naloga na GitHub-u.
+
+Kreiranje GitHub naloga uključuje generisanje SSH ključa koji služi za autentifikaciju vašeg računara.
+
+# Osnovne komande za rad sa Git-om
+
+## 1. Kreiranje repozitorijuma
+
+- Kreirajte novi repozitorijum (projekat).
+- Klonirajte repozitorijum sa `git pull`.
+
+## 2. Dodavanje fajlova i izmene
+
+1. Dodajte novi fajl.
+2. Koristite `git add .` da dodate sve promene u staging area.
+3. Proverite status sa `git status`.
+4. Commitujte izmene sa `git commit -m "commit message"`.
+5. Pošaljite izmene na GitHub sa `git push`.
+
+## 3. Nikola - Rad na projektu
+
+Preuzimanje izmena, rad na fajlu, i kreiranje novih fajlova:
+
+```bash
+git pull
+git fetch
+# Napravite izmene u fajlu.
+# Kreirajte novi fajl i commitujte:
+git add .
+git commit -m "message_user_2"
+git push
+```
+
+## 4. Aleksandar - Finalne izmene
+
+Ažuriranje poslednjih izmena na projektu.
+
+## 5. Branch i Checkout
+
+Rad sa granama:
+
+```bash
+git branch
+git checkout <branch_name>
+```
+
+# Nikola: Git & GitHub iz okruženja - R Studio
+
+Demonstracija korišćenja Git i GitHub-a direktno iz R Studio okruženja.
+
+# Zaključak
+
+Git i GitHub su osnovni alati za timsku saradnju i upravljanje projektima. Kroz komande i pravila opisana ovde, možete efikasno raditi na zajedničkim projektima.
